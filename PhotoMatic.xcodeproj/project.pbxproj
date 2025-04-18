@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F8F31EB92DB2568700A4EC6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8F31E9A2DB2568500A4EC6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8F31EA12DB2568500A4EC6B;
+			remoteInfo = PhotoMatic;
+		};
+		F8F31EC32DB2568700A4EC6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8F31E9A2DB2568500A4EC6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8F31EA12DB2568500A4EC6B;
+			remoteInfo = PhotoMatic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8F31EA22DB2568500A4EC6B /* PhotoMatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoMatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F31EB82DB2568700A4EC6B /* PhotoMaticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoMaticTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F31EC22DB2568700A4EC6B /* PhotoMaticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoMaticUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F8F31ECA2DB2568700A4EC6B /* Exceptions for "PhotoMatic" folder in "PhotoMatic" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F8F31EA12DB2568500A4EC6B /* PhotoMatic */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F8F31EA42DB2568500A4EC6B /* PhotoMatic */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F8F31ECA2DB2568700A4EC6B /* Exceptions for "PhotoMatic" folder in "PhotoMatic" target */,
+			);
+			path = PhotoMatic;
+			sourceTree = "<group>";
+		};
+		F8F31EBB2DB2568700A4EC6B /* PhotoMaticTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PhotoMaticTests;
+			sourceTree = "<group>";
+		};
+		F8F31EC52DB2568700A4EC6B /* PhotoMaticUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PhotoMaticUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8F31E9F2DB2568500A4EC6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F31EB52DB2568700A4EC6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F31EBF2DB2568700A4EC6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8F31E992DB2568500A4EC6B = {
+			isa = PBXGroup;
+			children = (
+				F8F31EA42DB2568500A4EC6B /* PhotoMatic */,
+				F8F31EBB2DB2568700A4EC6B /* PhotoMaticTests */,
+				F8F31EC52DB2568700A4EC6B /* PhotoMaticUITests */,
+				F8F31EA32DB2568500A4EC6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8F31EA32DB2568500A4EC6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8F31EA22DB2568500A4EC6B /* PhotoMatic.app */,
+				F8F31EB82DB2568700A4EC6B /* PhotoMaticTests.xctest */,
+				F8F31EC22DB2568700A4EC6B /* PhotoMaticUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8F31EA12DB2568500A4EC6B /* PhotoMatic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8F31ECB2DB2568700A4EC6B /* Build configuration list for PBXNativeTarget "PhotoMatic" */;
+			buildPhases = (
+				F8F31E9E2DB2568500A4EC6B /* Sources */,
+				F8F31E9F2DB2568500A4EC6B /* Frameworks */,
+				F8F31EA02DB2568500A4EC6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F8F31EA42DB2568500A4EC6B /* PhotoMatic */,
+			);
+			name = PhotoMatic;
+			packageProductDependencies = (
+			);
+			productName = PhotoMatic;
+			productReference = F8F31EA22DB2568500A4EC6B /* PhotoMatic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8F31EB72DB2568700A4EC6B /* PhotoMaticTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8F31ED02DB2568700A4EC6B /* Build configuration list for PBXNativeTarget "PhotoMaticTests" */;
+			buildPhases = (
+				F8F31EB42DB2568700A4EC6B /* Sources */,
+				F8F31EB52DB2568700A4EC6B /* Frameworks */,
+				F8F31EB62DB2568700A4EC6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8F31EBA2DB2568700A4EC6B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F8F31EBB2DB2568700A4EC6B /* PhotoMaticTests */,
+			);
+			name = PhotoMaticTests;
+			packageProductDependencies = (
+			);
+			productName = PhotoMaticTests;
+			productReference = F8F31EB82DB2568700A4EC6B /* PhotoMaticTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8F31EC12DB2568700A4EC6B /* PhotoMaticUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8F31ED32DB2568700A4EC6B /* Build configuration list for PBXNativeTarget "PhotoMaticUITests" */;
+			buildPhases = (
+				F8F31EBE2DB2568700A4EC6B /* Sources */,
+				F8F31EBF2DB2568700A4EC6B /* Frameworks */,
+				F8F31EC02DB2568700A4EC6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8F31EC42DB2568700A4EC6B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F8F31EC52DB2568700A4EC6B /* PhotoMaticUITests */,
+			);
+			name = PhotoMaticUITests;
+			packageProductDependencies = (
+			);
+			productName = PhotoMaticUITests;
+			productReference = F8F31EC22DB2568700A4EC6B /* PhotoMaticUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8F31E9A2DB2568500A4EC6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					F8F31EA12DB2568500A4EC6B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F8F31EB72DB2568700A4EC6B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F8F31EA12DB2568500A4EC6B;
+					};
+					F8F31EC12DB2568700A4EC6B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F8F31EA12DB2568500A4EC6B;
+					};
+				};
+			};
+			buildConfigurationList = F8F31E9D2DB2568500A4EC6B /* Build configuration list for PBXProject "PhotoMatic" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8F31E992DB2568500A4EC6B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F8F31EA32DB2568500A4EC6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8F31EA12DB2568500A4EC6B /* PhotoMatic */,
+				F8F31EB72DB2568700A4EC6B /* PhotoMaticTests */,
+				F8F31EC12DB2568700A4EC6B /* PhotoMaticUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8F31EA02DB2568500A4EC6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F31EB62DB2568700A4EC6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F31EC02DB2568700A4EC6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8F31E9E2DB2568500A4EC6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F31EB42DB2568700A4EC6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F31EBE2DB2568700A4EC6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8F31EBA2DB2568700A4EC6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8F31EA12DB2568500A4EC6B /* PhotoMatic */;
+			targetProxy = F8F31EB92DB2568700A4EC6B /* PBXContainerItemProxy */;
+		};
+		F8F31EC42DB2568700A4EC6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8F31EA12DB2568500A4EC6B /* PhotoMatic */;
+			targetProxy = F8F31EC32DB2568700A4EC6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F8F31ECC2DB2568700A4EC6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9P39LAGWTP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoMatic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NirTurjeman.PhotoMatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8F31ECD2DB2568700A4EC6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9P39LAGWTP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoMatic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NirTurjeman.PhotoMatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8F31ECE2DB2568700A4EC6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8F31ECF2DB2568700A4EC6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8F31ED12DB2568700A4EC6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9P39LAGWTP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NirTurjeman.PhotoMaticTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoMatic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhotoMatic";
+			};
+			name = Debug;
+		};
+		F8F31ED22DB2568700A4EC6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9P39LAGWTP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NirTurjeman.PhotoMaticTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoMatic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhotoMatic";
+			};
+			name = Release;
+		};
+		F8F31ED42DB2568700A4EC6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9P39LAGWTP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NirTurjeman.PhotoMaticUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhotoMatic;
+			};
+			name = Debug;
+		};
+		F8F31ED52DB2568700A4EC6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9P39LAGWTP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NirTurjeman.PhotoMaticUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhotoMatic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8F31E9D2DB2568500A4EC6B /* Build configuration list for PBXProject "PhotoMatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F31ECE2DB2568700A4EC6B /* Debug */,
+				F8F31ECF2DB2568700A4EC6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8F31ECB2DB2568700A4EC6B /* Build configuration list for PBXNativeTarget "PhotoMatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F31ECC2DB2568700A4EC6B /* Debug */,
+				F8F31ECD2DB2568700A4EC6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8F31ED02DB2568700A4EC6B /* Build configuration list for PBXNativeTarget "PhotoMaticTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F31ED12DB2568700A4EC6B /* Debug */,
+				F8F31ED22DB2568700A4EC6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8F31ED32DB2568700A4EC6B /* Build configuration list for PBXNativeTarget "PhotoMaticUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F31ED42DB2568700A4EC6B /* Debug */,
+				F8F31ED52DB2568700A4EC6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8F31E9A2DB2568500A4EC6B /* Project object */;
+}
