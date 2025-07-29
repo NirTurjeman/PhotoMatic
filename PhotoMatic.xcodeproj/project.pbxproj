@@ -6,6 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F80330A92DB26B3E00DBFDC9 /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = F80330A82DB26B3E00DBFDC9 /* DGCharts */; };
+		F85521362DD8F30200A2F3EF /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = F85521352DD8F30200A2F3EF /* ZIPFoundation */; };
+		F8722AFD2DC40D0A003C748D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = F8722AFC2DC40D0A003C748D /* Lottie */; };
+		F8F5BA4C2E36AA9500DCBEF6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F8F5BA4B2E36AA9500DCBEF6 /* FirebaseAuth */; };
+		F8F5BA4E2E36AA9500DCBEF6 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = F8F5BA4D2E36AA9500DCBEF6 /* FirebaseCore */; };
+		F8F5BA502E36AA9500DCBEF6 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = F8F5BA4F2E36AA9500DCBEF6 /* FirebaseDatabase */; };
+		F8F5BA522E36AA9500DCBEF6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F8F5BA512E36AA9500DCBEF6 /* FirebaseFirestore */; };
+		F8F5BA542E36AA9500DCBEF6 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F8F5BA532E36AA9500DCBEF6 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		F8F31EB92DB2568700A4EC6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -22,6 +33,19 @@
 			remoteInfo = PhotoMatic;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F84B3C8D2DB2687E002688D0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F8F31EA22DB2568500A4EC6B /* PhotoMatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoMatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +89,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F5BA502E36AA9500DCBEF6 /* FirebaseDatabase in Frameworks */,
+				F80330A92DB26B3E00DBFDC9 /* DGCharts in Frameworks */,
+				F8F5BA4E2E36AA9500DCBEF6 /* FirebaseCore in Frameworks */,
+				F8722AFD2DC40D0A003C748D /* Lottie in Frameworks */,
+				F85521362DD8F30200A2F3EF /* ZIPFoundation in Frameworks */,
+				F8F5BA542E36AA9500DCBEF6 /* FirebaseStorage in Frameworks */,
+				F8F5BA4C2E36AA9500DCBEF6 /* FirebaseAuth in Frameworks */,
+				F8F5BA522E36AA9500DCBEF6 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +123,7 @@
 				F8F31EA42DB2568500A4EC6B /* PhotoMatic */,
 				F8F31EBB2DB2568700A4EC6B /* PhotoMaticTests */,
 				F8F31EC52DB2568700A4EC6B /* PhotoMaticUITests */,
+				F8F31EDD2DB264BF00A4EC6B /* Frameworks */,
 				F8F31EA32DB2568500A4EC6B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,6 +138,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		F8F31EDD2DB264BF00A4EC6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,6 +155,7 @@
 				F8F31E9E2DB2568500A4EC6B /* Sources */,
 				F8F31E9F2DB2568500A4EC6B /* Frameworks */,
 				F8F31EA02DB2568500A4EC6B /* Resources */,
+				F84B3C8D2DB2687E002688D0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +166,14 @@
 			);
 			name = PhotoMatic;
 			packageProductDependencies = (
+				F80330A82DB26B3E00DBFDC9 /* DGCharts */,
+				F8722AFC2DC40D0A003C748D /* Lottie */,
+				F85521352DD8F30200A2F3EF /* ZIPFoundation */,
+				F8F5BA4B2E36AA9500DCBEF6 /* FirebaseAuth */,
+				F8F5BA4D2E36AA9500DCBEF6 /* FirebaseCore */,
+				F8F5BA4F2E36AA9500DCBEF6 /* FirebaseDatabase */,
+				F8F5BA512E36AA9500DCBEF6 /* FirebaseFirestore */,
+				F8F5BA532E36AA9500DCBEF6 /* FirebaseStorage */,
 			);
 			productName = PhotoMatic;
 			productReference = F8F31EA22DB2568500A4EC6B /* PhotoMatic.app */;
@@ -205,9 +254,16 @@
 			knownRegions = (
 				en,
 				Base,
+				he,
 			);
 			mainGroup = F8F31E992DB2568500A4EC6B;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F80330A72DB26B3E00DBFDC9 /* XCRemoteSwiftPackageReference "Charts" */,
+				F8722AFB2DC40D0A003C748D /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				F85521342DD8F30100A2F3EF /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+				F8F5BA4A2E36AA9500DCBEF6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F8F31EA32DB2568500A4EC6B /* Products */;
 			projectDirPath = "";
@@ -292,11 +348,15 @@
 				DEVELOPMENT_TEAM = 9P39LAGWTP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PhotoMatic/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need your accsess";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need your accsess";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = Dashboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Dashboard;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,11 +380,15 @@
 				DEVELOPMENT_TEAM = 9P39LAGWTP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PhotoMatic/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need your accsess";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need your accsess";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = Dashboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Dashboard;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -343,6 +407,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -406,6 +471,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -569,6 +635,84 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F80330A72DB26B3E00DBFDC9 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.1.0;
+			};
+		};
+		F85521342DD8F30100A2F3EF /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation";
+			requirement = {
+				kind = exactVersion;
+				version = 0.9.19;
+			};
+		};
+		F8722AFB2DC40D0A003C748D /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = exactVersion;
+				version = 4.5.1;
+			};
+		};
+		F8F5BA4A2E36AA9500DCBEF6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 12.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F80330A82DB26B3E00DBFDC9 /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F80330A72DB26B3E00DBFDC9 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+		F85521352DD8F30200A2F3EF /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F85521342DD8F30100A2F3EF /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+		F8722AFC2DC40D0A003C748D /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8722AFB2DC40D0A003C748D /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		F8F5BA4B2E36AA9500DCBEF6 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8F5BA4A2E36AA9500DCBEF6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F8F5BA4D2E36AA9500DCBEF6 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8F5BA4A2E36AA9500DCBEF6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		F8F5BA4F2E36AA9500DCBEF6 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8F5BA4A2E36AA9500DCBEF6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		F8F5BA512E36AA9500DCBEF6 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8F5BA4A2E36AA9500DCBEF6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F8F5BA532E36AA9500DCBEF6 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8F5BA4A2E36AA9500DCBEF6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F8F31E9A2DB2568500A4EC6B /* Project object */;
 }

@@ -1,0 +1,8 @@
+"clean_history_title" = "ארכיון ניקוי";
+"no_clean_history_message" = "לא נמצאה היסטוריית ניקוי";
+"ok" = "אישור";
+"compression_size_format" = "%.2f GB ← %.2f GB";
+"backup_label" = "גיבוי: %@";
+"none" = "ללא";
+"deleted_true" = "תמונות מקוריות נמחקו";
+"deleted_false" = "תמונות מקוריות נשמרו";

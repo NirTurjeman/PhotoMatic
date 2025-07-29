@@ -1,0 +1,25 @@
+"title_halo" = "Photos Storage";
+
+"legend_photos" = "Photos";
+"legend_other" = "Other";
+"legend_free" = "Free";
+
+"used_of_total_format" = "of %.0f GB (%.0f%%)";
+
+"Scan_Button" = "Start Scanning";
+"Scanning_Progress" = "Scanning";
+
+"card1_title" = "Smart Clean";
+"card1_subtitle" = "Free up now";
+"card1_subtitle_edited" = "Free up %.1f GB from photos";
+
+
+"card2_title" = "Analyze Storage";
+"card2_subtitle" = "Analyze photo usage";
+
+"card3_title" = "Clean History";
+"card3_subtitle" = "Your cleanup timeline";
+
+"card4_title" = "About";
+"card4_subtitle" = "App information and support";
+

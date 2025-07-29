@@ -1,0 +1,8 @@
+"clean_history_title" = "Clean History";
+"no_clean_history_message" = "No compression history found.";
+"ok" = "OK";
+"compression_size_format" = "%.2f GB → %.2f GB";
+"backup_label" = "Backup: %@";
+"none" = "None";
+"deleted_true" = "Original photos deleted";
+"deleted_false" = "Original photos saved";

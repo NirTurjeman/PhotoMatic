@@ -1,0 +1,23 @@
+"title_halo" = "אחסון תמונות";
+
+"legend_photos" = "תמונות";
+"legend_other" = "אחר";
+"legend_free" = "פנוי";
+
+"card1_title" = "התחל ניקוי חכם";
+"card1_subtitle" = "פנה מקום עכשיו";
+"card1_subtitle_edited" = "פנה %.1f ג׳יגה מהתמונות";
+
+"used_of_total_format" = "מתוך %.0f ג״ב (%.0f%%)";
+
+"Scan_Button" = "התחל סריקה";
+"Scanning_Progress" = "סורק";
+
+"card2_title" = "ניתוח אחסון";
+"card2_subtitle" = "הצגת טבלאות ניתוח";
+
+"card3_title" = "ארכיון ניקוי";
+"card3_subtitle" = "לוח זמנים של ניקויים";
+
+"card4_title" = "אודות";
+"card4_subtitle" = "מידע ותמיכה";
