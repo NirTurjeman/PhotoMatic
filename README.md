@@ -22,7 +22,6 @@ PhotoMatic lets you compress photos in a tap, optionally back up originals, and 
 - [🧯 Troubleshooting](#-troubleshooting)
 - [🗺️ Roadmap](#️-roadmap)
 - [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
 - [📬 Contact](#-contact)
 
 ---
@@ -143,12 +142,6 @@ These numbers are computed from the CompressionResult and bound to the Finish sc
 4) Open a PR with a short summary and screenshots if UI changed
 
 Please follow existing style and add minimal tests where reasonable.
-
----
-
-## 📄 License
-MIT — see LICENSE file.
-
 ---
 
 ## 📬 Contact
